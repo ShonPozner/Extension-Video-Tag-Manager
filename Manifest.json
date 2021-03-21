@@ -1,0 +1,20 @@
+{
+    "name": "Video Tag Manager",
+    "description": "Extension for Video Tag Mangger - tool for summry videos",
+    "version": "0.1",
+    "permissions": ["activeTab"],
+    "icons": {
+        "16": "logos/video_tag_icon_16.png",
+        "48": "logos/video_tag_icon_48.png",
+        "64": "logos/video_tag_icon_64.png",
+        "128": "logos/video_tag_icon_128.png" 
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "logos/video_tag_icon_16.png",
+        "default_title": "summary tool"
+      },
+    "manifest_version": 2
+}
